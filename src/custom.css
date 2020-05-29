@@ -17,9 +17,19 @@ code {
     monospace;
 }
 
+.App {
+  color: white;
+  text-align: center;
+}
+
 .App-header {
   height: 100%;
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
 }
